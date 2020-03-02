@@ -1,0 +1,17 @@
+body {
+  font: 16px/1.2em Arial, sans-serif;
+}
+
+.form input,
+.form textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 200px;
+  margin: 5px;
+  border: 1px #999 solid;
+  font: 16px/1.2em Arial, sans-serif;
+}
+
+.form textarea {
+  height: 100px;
+}
