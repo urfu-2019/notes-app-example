@@ -16,7 +16,7 @@
     "lint:ts": "tsc --noEmit",
     "deps:all": "npm ci",
     "deps:production": "npm ci --production",
-    "dev": "tsc-watch --preserveWatchOutput --pretty --onSuccess 'npm-run-all build:hbs start'",
+    "dev": "tsc-watch --preserveWatchOutput --pretty --onSuccess \"npm-run-all build:hbs start\"",
     "docker:build": "docker build -t $npm_package_name .",
     "docker:run": "docker run -p 8080:80 $npm_package_name",
     "heroku:login": "heroku container:login",
